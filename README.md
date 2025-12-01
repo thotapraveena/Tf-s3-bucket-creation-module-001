@@ -1,2 +1,12 @@
-# Tf-s3-bucket-creation-module-001
-Tf-s3-bucket-creation-module-001
+terraform-project/
+├── backend.tf
+├── terraform.tf
+├── main.tf
+├── variables.tf
+├── env/
+│   └── dev.auto.tfvars
+└── modules/
+    └── s3_bucket/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
